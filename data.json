@@ -1,0 +1,74 @@
+{
+    "americano": [
+        {
+            "foto": "images/produk/americano.jpg",
+            "nama": "Americano",
+            "size": "100gr",
+            "harga": "25.000",
+            "link": ""
+        }
+    ],
+    "capuchino": [
+        {
+            "foto": "images/produk/product_capuchino.jpg",
+            "nama": "Cappuccino",
+            "size": "100gr",
+            "harga": "45.000",
+            "link": ""
+        }
+    ],
+    "espresso": [
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Espresso",
+            "size": "100gr",
+            "harga": "35.000",
+            "link": ""
+        }
+    ],
+    "kopi_susu": [
+        {
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "nama": "Kopi Susu",
+            "size": "100gr",
+            "harga": "10.000",
+            "link": ""
+        }
+    ],
+    "latte": [
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte",
+            "size": "100gr",
+            "harga": "15.000",
+            "link": ""
+        }
+    ],
+    "macchiato": [
+        {
+            "foto": "images/produk/machiato.png",
+            "nama": "Macchiato",
+            "size": "100gr",
+            "harga": "20.000",
+            "link": ""
+        }
+    ],
+    "mocca": [
+        {
+            "foto": "images/produk/moca.png",
+            "nama": "Mocca",
+            "size": "100gr",
+            "harga": "15.000",
+            "link": ""
+        }
+    ],
+    "robusta": [
+        {
+            "foto": "images/produk/robusta.jpg",
+            "nama": "Robusta",
+            "size": "100gr",
+            "harga": "30.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+        }
+    ]
+}

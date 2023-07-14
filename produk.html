@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+        <title>Kopi Kuy</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
+        <link rel="stylesheet" href="vendor/rk.css">
+        <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <style>
+            /* tulis kode CSS internal di bawah sini */
+
+            .navbar {
+                margin-left: auto;
+                box-shadow: 0 3px 7px -2px #000;
+            }
+
+            .nav-link {
+                color: #fff;
+            }
+
+            .nav-link:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .btn-chat {
+                background-color: rgb(8, 69, 8);
+                color: #fff;
+                padding-top: 5px;
+                padding-right: 15px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+                border-radius: 10px;
+            }
+
+            .btn-chat:hover {
+                background-color: rgb(8, 69, 8);
+                color: #fff;
+                padding-top: 5px;
+                padding-right: 15px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+                border-radius: 10px;
+            }
+
+            .collapse a {
+                font-size: 15px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            /* Hide scrollbar for Chrome, Safari and Opera */
+            ::-webkit-scrollbar {
+                display: none;
+            }
+
+            .element::-webkit-scrollbar { width: 0 !important }
+            /* Batas Akhir penulisan kode CSS internal */
+        </style>
+    </head>
+
+    <body>
+        <!-- Tulis Kode Bootstrap Di Bawah Sini -->
+
+        <!-- Navigasi -->
+        <nav class="navbar navbar-dark bg-success navbar-expand-lg bisadicopy">
+            <div class="container">
+                <a class="navbar-brand" href="">
+                    <img src="images/logo/logo_kuy.png" height="40" alt="image">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11" aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav11">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-chat ms-md-3" href="cart.html">Cart <i class="bi bi-cart"></i></a>
+                        </li>
+                    </ul>
+                    <a class="btn btn-chat ms-md-3" href="https://wa.me/6281290465033">Chat <i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navigasi -->
+
+        <!-- Konten -->
+        <section class="riki-block produk text-center my-5 py-5">
+            <div class="container">
+                <h1>Pilih Produk Anda</h1>
+                <p class="fs-4">Kualitas terbaik biji kopi pilihan fresh langsung dari petani</p>
+                <hr class="border border-success border-3 opacity-75">
+
+                <!-- Select -->
+                <div class="form-floating col-md-6  mx-auto d-flex flex-row">
+                    <select class="form-select" id="select_kopi">
+                        <option disabled selected>-</option>
+                        <option value="americano">Americano</option>
+                        <option value="capuchino">Capuchino</option>
+                        <option value="espresso">Espresso</option>
+                        <option value="kopi_susu">Kopi Susu</option>
+                        <option value="latte">Latte</option>
+                        <option value="macchiato">Macchiato</option>
+                        <option value="mocca">Mocca</option>
+                        <option value="robusta">Robusta</option>
+                    </select>
+                    <label for="select_kopi">Pilih Jenis Kopi</label>
+                </div>
+                <!-- Select -->
+
+                <!-- Produk-->
+                <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+                    <div class="col mb-5">
+                        <div class="card">
+                            <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Capuchino</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        <i class="bi bi-basket3"></i> 100gr
+                                    </div>
+                                    <div class="col text-primary">
+                                        45.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card">
+                            <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kopi Susu</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        <i class="bi bi-basket3"></i> 100gr
+                                    </div>
+                                    <div class="col text-primary">
+                                        10.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card">
+                            <img src="images/produk/product_espresso.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Espresso</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        <i class="bi bi-basket3"></i> 100gr
+                                    </div>
+                                    <div class="col text-primary">
+                                        35.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card">
+                            <img src="images/produk/product_latte.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Latte</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        <i class="bi bi-basket3"></i> 100gr
+                                    </div>
+                                    <div class="col text-primary">
+                                        15.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card">
+                            <img src="images/produk/machiato.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Macchiato</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        <i class="bi bi-basket3"></i> 100gr
+                                    </div>
+                                    <div class="col text-primary">
+                                        20.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card">
+                            <img src="images/produk/robusta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Robusta</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        <i class="bi bi-basket3"></i> 100gr
+                                    </div>
+                                    <div class="col text-primary">
+                                        30.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card">
+                            <img src="images/produk/americano.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Americano</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        <i class="bi bi-basket3"></i> 100gr
+                                    </div>
+                                    <div class="col text-primary">
+                                        25.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mb-5">
+                        <div class="card">
+                            <img src="images/produk/moca.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mocca</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        <i class="bi bi-basket3"></i> 100gr
+                                    </div>
+                                    <div class="col text-primary">
+                                        15.000
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Produk -->
+        </section>
+        <!-- Konten -->
+
+        <!-- Footer -->
+        <footer class="riki-block footer-small bg-success">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-8">
+                        <ul class="nav justify-content-center justify-content-md-start">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="index.html#best-seller">Best Seller</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="index.html#our-team">Our Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="index.html#review">Review</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="index.html#contact-us">Contact US</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-light text-md-right">
+                        &copy; 2023 Kopi Kuy &amp; Team . All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
+
+        <!-- Batas Akhir penulisan kode Bootstrap -->
+        <script>
+            /* Tulis Javascript Di bawah Sini */
+
+            var sumber = "data.json"
+
+            select_kopi.onchange = function () {
+                var dipilih = this.value
+                ambilData(dipilih)
+            }
+
+            function ambilData(dipilih) {
+                var template = ''
+                $.getJSON(sumber).then(function (data) {
+                    var data_kopi = data[dipilih]
+
+                    data_kopi.forEach(item => {
+                        template += `<div class="col mb-5">
+                            <div class="card">
+                                <img src="${item.foto}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">${item.nama}</h5>
+                                    <div class="row hargasize my-4">
+                                        <div class="col">
+                                            <i class="bi bi-basket3"></i>${item.size}
+                                        </div>
+                                        <div class="col text-primary">
+                                            ${item.harga}
+                                        </div>
+                                    </div>
+                                    <a href="${item.link}" class="btn btn-success mb-2 w-100">Beli</i></i></a>
+                                    <a href="#" class="btn btn-success w-100">Cart <i class="bi bi-cart"></i></a>
+                                </div>
+                            </div>`
+                    })
+                    baris_produk.innerHTML = template
+                })
+            }
+
+            /* Batas Akhir penulisan kode Javascript */
+        </script>
+    </body>
+</html>
