@@ -155,27 +155,7 @@
         <!-- Footer -->
 
         <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
-                var cartItems = document.getElementById('cart-items');
-                var checkoutBtn = document.getElementById('checkout-btn');
-
-                addToCartButtons.forEach(function(button) {
-                    button.addEventListener('click', function() {
-                        var product = this.parentNode;
-                        var productName = product.getAttribute('data-name');
-                        var productPrice = product.getAttribute('data-price');
-                        var cartItem = document.createElement('li');
-                        cartItem.innerText = productName + ' - $' + productPrice;
-                        cartItems.appendChild(cartItem);
-                    });
-                });
-
-                checkoutBtn.addEventListener('click', function() {
-                    alert('Checkout complete!');
-                    cartItems.innerHTML = '';
-                });
-            });
+            
         </script>
     </body>
 </html>
